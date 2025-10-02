@@ -1,9 +1,5 @@
 import time
-try:
-    import cv2
-except ImportError as e:
-    raise ImportError(
-    ) from e
+import cv2
 import numpy as np
 import mediapipe as mp
 
